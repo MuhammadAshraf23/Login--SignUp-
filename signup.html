@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="form signup">
+        <h2>Sign Up</h2>
+        <div class="register">
+            <label for="username">User-Name</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="register">
+            <br> <label for="useremail">Email</label>
+            <input type="email" id="useremail" name="email" required>
+        </div>
+        <div class="register">
+            <br> <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+        <div class="register">
+            <br> <label for="password">Confirm Password</label>
+            <input type="text" id="password2" name="password2">
+        </div>
+        <button id="submit" onclick="signUp()">Sign Up</button>
+        <div class="form-pass">
+            <span>Already have an account?</span> <a href="./index.html" class="links signup-link">login</a>
+            <h4>Or</h4>
+        </div>
+        <div class="media-options">
+            <a href="#" class="fied-facebook"><button class="face">Login with Facebook</button></a>
+            <h4>Or</h4>
+        </div>
+        <div class="media-options">
+            <a href="#" class="fied-google"><button class="goog">Login with Google</button></a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
